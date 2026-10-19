@@ -1,0 +1,32 @@
+.gradle/
+build/
+run/
+run-*/
+libs/
+.tools/
+*.log
+
+# Generated distributions, personal game evidence and scratch work.
+dist/
+.scratch/
+runtime-evidence/
+.private/
+PROGRESS.md
+DEVELOPMENT_PLAN.md
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.jfr
+*.hprof
+*.dmp
+
+# Local credentials and instance-specific runtime state; examples remain tracked.
+**/session.json
+**/server-rules.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

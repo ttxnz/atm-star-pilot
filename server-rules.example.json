@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "allowSharedStorageWithdraw": false,
+  "allowSharedStorageReturn": false,
+  "allowSharedInfrastructureChanges": false,
+  "allowExistingSurvivalFlight": false,
+  "allowNativeMapTeleport": false,
+  "manualControlPolicy": {
+    "mode": "manual_input_priority"
+  },
+  "buildAreas": [],
+  "verifiedTransportSites": [],
+  "verifiedWaypoints": [],
+  "verifiedSurvivalPortals": [],
+  "survivalCommands": {
+    "allow": [],
+    "minimumIntervalSeconds": 10
+  },
+  "deathRecovery": {
+    "enabled": false
+  },
+  "survivalGuard": {
+    "enabled": false
+  }
+}

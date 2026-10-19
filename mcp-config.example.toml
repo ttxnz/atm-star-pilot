@@ -1,0 +1,6 @@
+# Replace these placeholder paths with paths on the recipient's own computer.
+[mcp_servers.minecraft]
+command = "python"
+args = ["D:/ATM-Star-Pilot/mcp_server.py", "--session", "D:/Your-ATM10-Instance/config/atmpilot/session.json"]
+startup_timeout_sec = 15
+tool_timeout_sec = 60

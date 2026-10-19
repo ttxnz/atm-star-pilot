@@ -1,0 +1,2413 @@
+{
+  "pack": "ATM10",
+  "version": "8.2",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.251",
+  "authority": "Personal installed pack snapshot; live server-synchronised JEI has precedence.",
+  "starRoutes": [
+    {
+      "name": "Awakened Alloy Block",
+      "inputs": [
+        {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "mysticalagriculture:awakened_supremium_essence",
+          "count": 4,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "count": 4,
+          "componentPredicate": "[stored_enchantments={levels:{\"minecraft:unbreaking\":1}}]"
+        },
+        {
+          "item": "mysticalagriculture:awakened_supremium_gemstone",
+          "count": 4,
+          "componentPredicate": ""
+        }
+      ],
+      "outputs": [
+        {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block",
+          "count": 1,
+          "componentPredicate": "[enchantments={levels:{\"minecraft:unbreaking\":1}},custom_name='{\"extra\":[{\"italic\":false,\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\"}],\"text\":\"\"}']"
+        }
+      ],
+      "source": "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js"
+    },
+    {
+      "name": "Infused Patrick Star",
+      "inputs": [
+        {
+          "item": "allthetweaks:atm_star_shard",
+          "count": 36,
+          "componentPredicate": ""
+        },
+        {
+          "item": "apothic_enchanting:infused_breath",
+          "count": 12,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "count": 4,
+          "componentPredicate": "[stored_enchantments={levels:{\"minecraft:mending\":1}}]"
+        },
+        {
+          "item": "allthemodium:vibranium_allthemodium_alloy_ingot",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthemodium:unobtainium_allthemodium_alloy_ingot",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthemodium:unobtainium_vibranium_alloy_ingot",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:patrick_star",
+          "count": 1,
+          "componentPredicate": ""
+        }
+      ],
+      "outputs": [
+        {
+          "item": "allthetweaks:patrick_star",
+          "count": 1,
+          "componentPredicate": "[enchantments={levels:{\"minecraft:mending\":1}},custom_name='{\"extra\":[{\"italic\":false,\"text\":\"Infused Patrick Star\"}],\"text\":\"\"}']"
+        }
+      ],
+      "source": "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js"
+    },
+    {
+      "name": "Patrick Star",
+      "inputs": [
+        {
+          "item": "minecraft:magenta_concrete",
+          "count": 13,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:pink_concrete",
+          "count": 11,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:green_concrete",
+          "count": 8,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:green_concrete_powder",
+          "count": 8,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:magenta_concrete_powder",
+          "count": 8,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:pink_concrete_powder",
+          "count": 5,
+          "componentPredicate": ""
+        },
+        {
+          "item": "minecraft:lime_concrete",
+          "count": 2,
+          "componentPredicate": ""
+        }
+      ],
+      "outputs": [
+        {
+          "item": "allthetweaks:patrick_star",
+          "count": 1,
+          "componentPredicate": ""
+        }
+      ],
+      "source": "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js"
+    },
+    {
+      "name": "ATM Star",
+      "inputs": [
+        {
+          "item": "allthemodium:unobtainium_allthemodium_alloy_block",
+          "count": 28,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthecompressed:nether_star_block_3x",
+          "count": 15,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block",
+          "count": 2,
+          "componentPredicate": "[enchantments={levels:{\"minecraft:unbreaking\":1}},custom_name='{\"extra\":[{\"italic\":false,\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\"}],\"text\":\"\"}']"
+        },
+        {
+          "item": "allthetweaks:oblivion_shard",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "mysticalagradditions:creative_essence",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:nexium_emitter",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:withers_compass",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:improbable_probability_device",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:dragon_soul",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:philosophers_fuel",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:pulsating_black_hole",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:dimensional_seed",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:patrick_star",
+          "count": 1,
+          "componentPredicate": ""
+        }
+      ],
+      "outputs": [
+        {
+          "item": "allthetweaks:atm_star",
+          "count": 1,
+          "componentPredicate": ""
+        }
+      ],
+      "source": "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js"
+    },
+    {
+      "name": "ATM Star Shard",
+      "inputs": [
+        {
+          "item": "actuallyadditions:lens_of_the_killer",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "kubejs:atm_star_shard_1",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "kubejs:atm_star_shard_2",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "kubejs:atm_star_shard_3",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "kubejs:atm_star_shard_4",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "kubejs:atm_star_shard_5",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "forbidden_arcanus:mundabitur_dust",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "forbidden_arcanus:corrupti_dust",
+          "count": 1,
+          "componentPredicate": ""
+        },
+        {
+          "item": "allthetweaks:patrick_star",
+          "count": 1,
+          "componentPredicate": "[enchantments={levels:{\"minecraft:mending\":1}},custom_name='{\"extra\":[{\"italic\":false,\"text\":\"Infused Patrick Star\"}],\"text\":\"\"}']"
+        }
+      ],
+      "outputs": [
+        {
+          "item": "allthetweaks:atm_star",
+          "count": 1,
+          "componentPredicate": ""
+        }
+      ],
+      "source": "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js"
+    }
+  ],
+  "structures": [
+    {
+      "name": "atm:auto_hepheastus_forge",
+      "size": [
+        11,
+        5,
+        11
+      ],
+      "patternYZX": [
+        [
+          "sssdaxadsss",
+          "scdrlklrdcs",
+          "sdklltllkds",
+          "drltllltlrd",
+          "alllivillla",
+          "xktlvtvltkx",
+          "alllivillla",
+          "drltllltlrd",
+          "sdklltllkds",
+          "scdrlklrdcs",
+          "sssdaxadsss"
+        ],
+        [
+          "   hsmsh   ",
+          " ohhdddhho ",
+          " hdddgdddh ",
+          "hhdgdddgdhh",
+          "sddddedddds",
+          "ddgdegedgdd",
+          "sddddedddds",
+          "hhdgdddgdhh",
+          " hdddgdddh ",
+          " ohhdddhho ",
+          "   hsdsh   "
+        ],
+        [
+          "     o     ",
+          "           ",
+          "     p     ",
+          "   p   p   ",
+          "           ",
+          "o p  f  p o",
+          "           ",
+          "   p   p   ",
+          "     p     ",
+          "           ",
+          "     o     "
+        ],
+        [
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           "
+        ],
+        [
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           ",
+          "           "
+        ]
+      ],
+      "choices": {
+        "s": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "d": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "a": [
+          "forbidden_arcanus:arcane_polished_darkstone"
+        ],
+        "g": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "h": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "c": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "r": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "o": [
+          "forbidden_arcanus:arcane_crystal_obelisk"
+        ],
+        "k": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "l": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "t": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "p": [
+          "forbidden_arcanus:darkstone_pedestal"
+        ],
+        "e": [
+          "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+        ],
+        "v": [
+          "modular_machinery_reborn:casing_vent"
+        ],
+        "f": [
+          "forbidden_arcanus:hephaestus_forge_tier_5"
+        ],
+        "i": [
+          "#modular_machinery_reborn:fluidinputhatch"
+        ],
+        "x": [
+          "#modular_machinery_reborn:energyinputhatch",
+          "#modular_machinery_reborn:outputbus",
+          "#modular_machinery_reborn:inputbus",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "s": 28,
+        "d": 67,
+        "a": 8,
+        "x": 4,
+        "c": 4,
+        "r": 8,
+        "l": 36,
+        "k": 8,
+        "t": 9,
+        "i": 4,
+        "v": 4,
+        "h": 24,
+        "m": 1,
+        "o": 8,
+        "g": 9,
+        "e": 4,
+        "p": 8,
+        "f": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/auto_hephaestus_forge.js",
+      "sha256": "6969b81a2c0a0bb0c4c056ebc45b566d8bfc035f5c4051cc60b7cc7b30f29102",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:runic_crucible",
+      "size": [
+        5,
+        4,
+        5
+      ],
+      "patternYZX": [
+        [
+          "rsmsr",
+          "sddds",
+          "sdgds",
+          "sddds",
+          "rsssr"
+        ],
+        [
+          "pxaxp",
+          "xsssx",
+          "ascsa",
+          "xsssx",
+          "pxaxp"
+        ],
+        [
+          "c   c",
+          "     ",
+          "     ",
+          "     ",
+          "c   c"
+        ],
+        [
+          "     ",
+          "     ",
+          "  q  ",
+          "     ",
+          "     "
+        ]
+      ],
+      "choices": {
+        "s": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "d": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "a": [
+          "forbidden_arcanus:arcane_polished_darkstone"
+        ],
+        "g": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "r": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "p": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "c": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "q": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "x": [
+          "forbidden_arcanus:polished_darkstone",
+          "#modular_machinery_reborn:fluidinputhatch",
+          "#modular_machinery_reborn:fluidoutputhatch",
+          "#modular_machinery_reborn_ars:sourceinputhatch",
+          "#modular_machinery_reborn:inputbus",
+          "#modular_machinery_reborn:outputbus"
+        ]
+      },
+      "symbolCounts": {
+        "r": 4,
+        "s": 19,
+        "m": 1,
+        "d": 8,
+        "g": 1,
+        "p": 4,
+        "x": 8,
+        "a": 4,
+        "c": 5,
+        "q": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_crucible.js",
+      "sha256": "f45fc44164c9cac4d15a26cc59d23e7d873d155264c6a2eb16457757ca935b9e",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:runic_enchanter",
+      "size": [
+        13,
+        14,
+        13
+      ],
+      "patternYZX": [
+        [
+          "wtttvdmduttts",
+          "ihdddddddddhg",
+          "idjjjjkjjjjdg",
+          "idjlljjjlljdg",
+          "rdjljjojjljdq",
+          "ddjjjjjjjjjdd",
+          "ddkjojkjojkdd",
+          "ddjjjjjjjjjdd",
+          "pdjljjojjljdn",
+          "idjlljjjlljdg",
+          "idjjjjkjjjjdg",
+          "ihdddddddddhg",
+          "fbbbedddcbbba"
+        ],
+        [
+          "     xxx     ",
+          "  xxDtttsxx  ",
+          " xDtvdhdqtsx ",
+          " xidddddddgx ",
+          " wvdcbBbpdqC ",
+          "xiddgdddiddgx",
+          "xihdBdhdBdhgx",
+          "xiddgdddiddgx",
+          " ApdqtBtvdca ",
+          " xidddddddgx ",
+          " xAbpdhdcbyx ",
+          "  xxfbbbyxx  ",
+          "     xxx     "
+        ],
+        [
+          "             ",
+          "             ",
+          "             ",
+          "   EFF FEG   ",
+          "   G     E   ",
+          "   F     F   ",
+          "      H      ",
+          "   E     F   ",
+          "   E     F   ",
+          "   EFF GFE   ",
+          "             ",
+          "             ",
+          "             "
+        ],
+        [
+          "             ",
+          "             ",
+          "             ",
+          "   FG   GF   ",
+          "   F     F   ",
+          "             ",
+          "             ",
+          "             ",
+          "   E     G   ",
+          "   FG   FF   ",
+          "             ",
+          "             ",
+          "             "
+        ],
+        [
+          "             ",
+          " I         I ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          " I         I ",
+          "             "
+        ],
+        [
+          "             ",
+          " L         J ",
+          "      I      ",
+          "             ",
+          "             ",
+          "             ",
+          "  I   K   I  ",
+          "             ",
+          "             ",
+          "             ",
+          "      I      ",
+          " J         J ",
+          "             "
+        ],
+        [
+          "             ",
+          " M         M ",
+          "      L      ",
+          "             ",
+          "             ",
+          "             ",
+          "  L       L  ",
+          "             ",
+          "             ",
+          "             ",
+          "      L      ",
+          " M         M ",
+          "             "
+        ],
+        [
+          "             ",
+          " N         N ",
+          "      M      ",
+          "             ",
+          "             ",
+          "             ",
+          "  M       M  ",
+          "             ",
+          "             ",
+          "             ",
+          "      M      ",
+          " N         N ",
+          "             "
+        ],
+        [
+          "             ",
+          " M         M ",
+          "      O      ",
+          "             ",
+          "             ",
+          "             ",
+          "  O   I   O  ",
+          "             ",
+          "             ",
+          "             ",
+          "      O      ",
+          " M         M ",
+          "             "
+        ],
+        [
+          "             ",
+          " L         J ",
+          "      M      ",
+          "             ",
+          "             ",
+          "             ",
+          "  M   J   M  ",
+          "             ",
+          "             ",
+          "             ",
+          "      M      ",
+          " J         J ",
+          "             "
+        ],
+        [
+          "             ",
+          "             ",
+          "      L      ",
+          "             ",
+          "             ",
+          "             ",
+          "  L   M   L  ",
+          "             ",
+          "             ",
+          "             ",
+          "      L      ",
+          "             ",
+          "             "
+        ],
+        [
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "      N      ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             "
+        ],
+        [
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "      M      ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             "
+        ],
+        [
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "      J      ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             ",
+          "             "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "b": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "d": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "e": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "f": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "g": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "h": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "j": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "k": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "l": [
+          "modular_machinery_reborn:casing_vent"
+        ],
+        "n": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "o": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "p": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "q": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "r": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "s": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "t": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "u": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "v": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "w": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "x": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "y": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "A": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "B": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "C": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "D": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "E": [
+          "apothic_enchanting:soul_touched_deepshelf"
+        ],
+        "F": [
+          "apothic_enchanting:soul_touched_sculkshelf"
+        ],
+        "G": [
+          "apothic_enchanting:echoing_sculkshelf"
+        ],
+        "H": [
+          "minecraft:enchanting_table"
+        ],
+        "I": [
+          "minecraft:soul_lantern"
+        ],
+        "J": [
+          "biomeswevegone:ebony_fence"
+        ],
+        "K": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "L": [
+          "eternal_starlight:lunar_fence"
+        ],
+        "M": [
+          "forbidden_arcanus:polished_darkstone_wall"
+        ],
+        "N": [
+          "apothic_enchanting:treasure_shelf"
+        ],
+        "O": [
+          "#modular_machinery_reborn_ars:sourceinputhatch",
+          "#modular_machinery_reborn:inputbus",
+          "#modular_machinery_reborn:outputbus",
+          "#modular_machinery_reborn:fluidinputhatch"
+        ]
+      },
+      "symbolCounts": {
+        "w": 2,
+        "t": 13,
+        "v": 4,
+        "d": 87,
+        "m": 1,
+        "u": 1,
+        "s": 3,
+        "i": 13,
+        "h": 9,
+        "g": 13,
+        "j": 60,
+        "k": 5,
+        "l": 12,
+        "r": 1,
+        "o": 4,
+        "q": 4,
+        "p": 4,
+        "n": 1,
+        "f": 2,
+        "b": 13,
+        "e": 1,
+        "c": 4,
+        "a": 2,
+        "x": 28,
+        "D": 2,
+        "B": 4,
+        "C": 1,
+        "A": 2,
+        "y": 2,
+        "E": 8,
+        "F": 17,
+        "G": 7,
+        "H": 1,
+        "I": 9,
+        "L": 10,
+        "J": 8,
+        "K": 1,
+        "M": 18,
+        "N": 5,
+        "O": 4
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_enchanter.js",
+      "sha256": "6f19a739b8cf5553ebc51f519b4ed6eae7d1347e2b09714b97ff6cd4d97a7901",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:runic_star_altar",
+      "size": [
+        15,
+        9,
+        15
+      ],
+      "patternYZX": [
+        [
+          "  ssszamazsss  ",
+          " ssdddddddddss ",
+          "ssdddddddddddss",
+          "sddddddddddddds",
+          "sddddddddddddds",
+          "zdddddddddddddz",
+          "addddddddddddda",
+          "zdddddddddddddz",
+          "addddddddddddda",
+          "zdddddddddddddz",
+          "sddddddddddddds",
+          "sddddddddddddds",
+          "ssdddddddddddss",
+          " ssdddddddddss ",
+          "  ssszazazsss  "
+        ],
+        [
+          "     sssss     ",
+          "   sssdgdsss   ",
+          "  ssdddddddss  ",
+          " ssgdddddddgss ",
+          " sddddddddddds ",
+          "ssdddddddddddss",
+          "sddddddddddddds",
+          "sgdddddddddddgs",
+          "sddddddddddddds",
+          "ssdddddddddddss",
+          " sddddddddddds ",
+          " ssgdddddddgss ",
+          "  ssdddddddss  ",
+          "   sssdgdsss   ",
+          "     sssss     "
+        ],
+        [
+          "               ",
+          "       o       ",
+          "    hsssssh    ",
+          "   ohrdddrho   ",
+          "  hhhddgddhhh  ",
+          "  srdgdddgdrs  ",
+          "  sdddededdds  ",
+          " osdgddgddgdso ",
+          "  sdddededdds  ",
+          "  srdgdddgdrs  ",
+          "  hhhddgddhhh  ",
+          "   ohrdddrho   ",
+          "    hsssssh    ",
+          "       o       ",
+          "               "
+        ],
+        [
+          "               ",
+          "               ",
+          "               ",
+          "     p   p     ",
+          "       b       ",
+          "   p b   b p   ",
+          "      j j      ",
+          "    b  n  b    ",
+          "      j j      ",
+          "   p b   b p   ",
+          "       b       ",
+          "     p   p     ",
+          "               ",
+          "               ",
+          "               "
+        ],
+        [
+          "               ",
+          "               ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "               ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "               ",
+          "               "
+        ],
+        [
+          "               ",
+          "               ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "       q       ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "               ",
+          "               "
+        ],
+        [
+          "               ",
+          "               ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "               ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "               ",
+          "               "
+        ],
+        [
+          "               ",
+          "               ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "               ",
+          "               ",
+          "   p       p   ",
+          "               ",
+          "     p   p     ",
+          "               ",
+          "               ",
+          "               "
+        ],
+        [
+          "               ",
+          "               ",
+          "               ",
+          "     rpcpr     ",
+          "               ",
+          "   r       r   ",
+          "   p       p   ",
+          "   c       c   ",
+          "   p       p   ",
+          "   r       r   ",
+          "               ",
+          "     rpcpr     ",
+          "               ",
+          "               ",
+          "               "
+        ]
+      ],
+      "choices": {
+        "s": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "d": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "a": [
+          "forbidden_arcanus:arcane_polished_darkstone"
+        ],
+        "g": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "h": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "r": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "p": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "c": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "b": [
+          "forbidden_arcanus:darkstone_pedestal"
+        ],
+        "e": [
+          "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:essence_utrem_jar"
+        ],
+        "n": [
+          "forbidden_arcanus:magnetized_darkstone_pedestal"
+        ],
+        "q": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "o": [
+          "forbidden_arcanus:arcane_crystal_obelisk"
+        ],
+        "z": [
+          "forbidden_arcanus:polished_darkstone",
+          "#modular_machinery_reborn:inputbus",
+          "#modular_machinery_reborn:outputbus",
+          "#modular_machinery_reborn:energyinputhatch"
+        ]
+      },
+      "symbolCounts": {
+        "s": 112,
+        "z": 11,
+        "a": 8,
+        "m": 1,
+        "d": 314,
+        "g": 17,
+        "o": 8,
+        "h": 20,
+        "r": 16,
+        "e": 4,
+        "p": 48,
+        "b": 8,
+        "j": 4,
+        "n": 1,
+        "q": 1,
+        "c": 4
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_star_altar.js",
+      "sha256": "3b52e8eea57dc7d10f4e7e080764323130525406828584fa5ecdcefccf8fccee",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:chemical_crystallizer",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_crystallizer.js",
+      "sha256": "b24028b8195e8361cf7bfdc10cd4a32120a7c030c15f0fb7964fe9e0a350dcef",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:chemical_dissolution_chamber",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_dissolution_chamber.js",
+      "sha256": "d26dea0cd1cb4fd65c83d1bab4042ddf17f126a6a32e776c5ea1a75429cc33f0",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:chemical_infuser",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_infuser.js",
+      "sha256": "f6642ce53192ef36e63e4893e3360928d701e2917bdfafe90ee1331256d31300",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:chemical_oxidizer",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_oxidizer.js",
+      "sha256": "7cbf71cf97ce0a81310471ffacc173b03e8c4a42bb124e0e64c4b23e481eced2",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:chemical_washer",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_washer.js",
+      "sha256": "074e448e2bfd9ca08bcbf1de36bc368d58d6db97386616690497dc14c75cd0d6",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:electrolytic_seperator",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/electrolytic_seperator.js",
+      "sha256": "d542c6299aa7dac1f05ddaba2e91a930d59e58592817b243658d86d9b190bcf9",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:isotopic_centrifuge",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/isotopic_centrifuge.js",
+      "sha256": "8898d630b25b27c4f4c228bbd5967305c7edbbc1952f57143d87551f07e16614",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:pressurized_reaction_chamber",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/pressurized_reaction_chamber.js",
+      "sha256": "50199094b1a0acee455442ab1b0beaf94eeddbf06f26aa8334ae8f247e5bda37",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    },
+    {
+      "name": "atm:solar_neutron_activator",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "patternYZX": [
+        [
+          "aaaimiaaa",
+          "acdeeedca",
+          "adffgffda",
+          "befhhhfeb",
+          "beghdhgeb",
+          "befhhhfeb",
+          "adffgffda",
+          "acdeeedca",
+          "aaabbbaaa"
+        ],
+        [
+          "   jjj   ",
+          "  aaaaa  ",
+          " akiiika ",
+          "jaiaaaiaj",
+          "jaiakaiaj",
+          "jaiaaaiaj",
+          " akiiika ",
+          "  aaaaa  ",
+          "   jjj   "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         ",
+          "         ",
+          "  l   l  ",
+          "         ",
+          "         "
+        ],
+        [
+          "         ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "    o    ",
+          "         ",
+          "  n   n  ",
+          "         ",
+          "         "
+        ]
+      ],
+      "choices": {
+        "a": [
+          "forbidden_arcanus:polished_darkstone_stairs"
+        ],
+        "c": [
+          "forbidden_arcanus:gilded_chiseled_polished_darkstone"
+        ],
+        "d": [
+          "modular_machinery_reborn:casing_reinforced"
+        ],
+        "e": [
+          "modular_machinery_reborn:casing_plain"
+        ],
+        "f": [
+          "modular_machinery_reborn:casing_firebox"
+        ],
+        "g": [
+          "modular_machinery_reborn:casing_gearbox"
+        ],
+        "h": [
+          "modular_machinery_reborn:casing_circuitry"
+        ],
+        "i": [
+          "forbidden_arcanus:polished_darkstone"
+        ],
+        "j": [
+          "forbidden_arcanus:polished_darkstone_slab"
+        ],
+        "k": [
+          "forbidden_arcanus:rune_block"
+        ],
+        "l": [
+          "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        ],
+        "n": [
+          "forbidden_arcanus:arcane_crystal_block"
+        ],
+        "o": [
+          "forbidden_arcanus:quantum_injector"
+        ],
+        "b": [
+          "#modular_machinery_reborn:energyhatch",
+          "#modular_machinery_reborn:itembus",
+          "#modular_machinery_reborn:fluidhatch",
+          "#modular_machinery_reborn_ars:sourcehatch",
+          "#modular_machinery_reborn_mekanism:chemicalhatch",
+          "modular_machinery_reborn:time_counter",
+          "forbidden_arcanus:polished_darkstone"
+        ]
+      },
+      "symbolCounts": {
+        "a": 48,
+        "i": 14,
+        "m": 1,
+        "c": 4,
+        "d": 9,
+        "e": 12,
+        "f": 12,
+        "g": 4,
+        "b": 9,
+        "h": 8,
+        "j": 12,
+        "k": 5,
+        "l": 8,
+        "n": 4,
+        "o": 1
+      },
+      "unresolvedSymbols": [
+        "m"
+      ],
+      "controllerSymbol": "m",
+      "source": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/solar_neutron_activator.js",
+      "sha256": "e3c40a18bb3ded2ea0444647deabe151bf502f9a7ac66de00f30b6fa0cef5fba",
+      "note": "Reference template. Resolve controller components, port choices, orientation and any block-state conditions before building."
+    }
+  ],
+  "unparsedStructures": [],
+  "executionStrategy": [
+    "Index live recipes and quest progress, then survey existing resource/energy/storage infrastructure.",
+    "Use dependency plans to reserve ingredients and select a concrete production route.",
+    "Resolve machine menus, ports, components and power/fluid supply before dispatching a batch.",
+    "Build repeated layouts with blueprint jobs; use bulk workflows for routine manufacture.",
+    "Verify outputs and quest progress, then replan shortages; acquire the actual ATM Star in inventory."
+  ]
+}

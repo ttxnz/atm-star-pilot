@@ -1,0 +1,4 @@
+interface:
+  display_name: "ATM Star Pilot"
+  short_description: "通过 Minecraft MCP 推进 ATM10 产线，并维护客户端热加载与分享包"
+  default_prompt: "使用 $atm-star-pilot 接入当前 Minecraft 实例，读取现场并继续推进 ATM10 独立产线。"

@@ -1,0 +1,54 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = '0.1.0'
+group = 'dev.atmpilot'
+base { archivesName = 'atm-star-pilot' }
+repositories { mavenCentral() }
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    withSourcesJar()
+}
+neoForge {
+    version = '21.1.251'
+    mods { atmpilot { sourceSet sourceSets.main } }
+    runs {
+        client { client() }
+        vanillaClient {
+            client()
+            gameDirectory = file('run-vanilla')
+            programArguments.addAll('--width', '1100', '--height', '720')
+        }
+    }
+}
+dependencies {
+    compileOnly files('libs/jei-api.jar')
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+sourceSets {
+    automation {
+        java.srcDir 'src/automation/java'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += output + compileClasspath
+    }
+}
+sourceSets.test.compileClasspath += sourceSets.automation.output
+sourceSets.test.runtimeClasspath += sourceSets.automation.output
+// Linkage smoke tests use the real game/loader types, explicitly without optional JEI.
+sourceSets.test.runtimeClasspath += sourceSets.main.compileClasspath.filter { it.name != 'jei-api.jar' }
+tasks.named('compileTestJava') { dependsOn tasks.named('automationClasses') }
+tasks.register('automationJar', Jar) {
+    dependsOn tasks.named('automationClasses')
+    archiveClassifier = 'automation'
+    from sourceSets.automation.output
+}
+tasks.named('assemble') { dependsOn tasks.named('automationJar') }
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+tasks.named('test') { useJUnitPlatform() }

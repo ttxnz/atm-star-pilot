@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "description": "走到已观察的工作台，按实际 JEI 配方批量合成。参数：x、y、z、recipe、count。",
+  "steps": [
+    {"type": "close"},
+    {"type": "walk_near", "x": {"$param": "x"}, "y": {"$param": "y"}, "z": {"$param": "z"}},
+    {"type": "use_block", "x": {"$param": "x"}, "y": {"$param": "y"}, "z": {"$param": "z"}, "expectMenu": true},
+    {"type": "craft", "recipe": {"$param": "recipe"}, "count": {"$param": "count"}},
+    {"type": "close"}
+  ]
+}

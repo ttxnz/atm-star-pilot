@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "description": "最小工作流验证：仅等待指定 tick，不操作物品和世界。",
+  "defaults": {"ticks": 2},
+  "steps": [{"type": "wait", "ticks": {"$param": "ticks"}}]
+}
